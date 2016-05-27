@@ -1,0 +1,18 @@
+{
+  "type": "wordpress-plugin",
+  "name": "mcaskill/acf-field-taxonomy-selector",
+  "description": "Taxonomy selector for Advanced Custom Fields",
+  "keywords": [ "wordpress", "wp", "plugin", "advancedcustomfields", "acf", "taxonomies" ],
+  "homepage": "https://github.com/mcaskill/acf-field-taxonomy-selector",
+  "license": "GPLv2 or later",
+  "authors": [
+    {
+      "name": "Chauncey McAskill",
+      "email": "chauncey@mcaskill.ca"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "composer/installers": "~1.0"
+  }
+}
