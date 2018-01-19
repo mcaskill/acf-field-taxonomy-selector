@@ -28,7 +28,7 @@ if ( ! class_exists('acf_field_taxonomy_selector') ) :
 		 *
 		 * @param  array  $settings  Plugin information.
 		 */
-		public function __construct()
+		public function __construct( array $settings )
 		{
 			$this->name     = 'taxonomy_selector';
 			$this->label    = __('Taxonomy Selector');
